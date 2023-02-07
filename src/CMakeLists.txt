@@ -1,0 +1,13 @@
+add_library(
+        simulation
+        point2d.h
+        realm.h
+        road.h
+        truck.h
+        truckcontainer.h
+        realm.cpp
+        point2d.cpp
+        road.cpp
+        truck.cpp
+        truckcontainer.cpp
+)
