@@ -2,7 +2,7 @@
 
 To build
 Run once
-`cd build && cmake build .. && cd ..`
+`cd build && cmake .. && cd ..`
 Then
 `cmake --build build`
 
