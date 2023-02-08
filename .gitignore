@@ -47,7 +47,12 @@ _deps
 build/*
 !build
 !build/README.md
+cmake-build-debug
 
 # vscode
 .vscode/*
 .vscode
+
+# clion
+.idea/*
+.idea
