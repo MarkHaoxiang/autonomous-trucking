@@ -1,7 +1,3 @@
-//
-// Created by Sam Penny on 07/02/2023.
-//
-
 #ifndef AUTONOMOUSTRUCKING_REALM_H
 #define AUTONOMOUSTRUCKING_REALM_H
 
