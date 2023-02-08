@@ -5,7 +5,7 @@ project(AutonomousTrucking VERSION 0.01
                   DESCRIPTION "A simulation for optimized truck transport control"
                   LANGUAGES CXX)
                   
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Testing
