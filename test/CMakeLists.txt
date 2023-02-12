@@ -5,7 +5,12 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(Catch2)
 
-add_executable(test_lib test_lib.cpp)
-target_link_libraries(test_lib PRIVATE Catch2::Catch2WithMain)
+message(STATUS "MY_VARIABLE=${AutonomousTrucking_SOURCE_DIR}")
 
-add_test(NAME testlibraryintegration COMMAND test_lib)
+include_directories (${AutonomousTrucking_SOURCE_DIR}/src)
+
+add_executable(testroad test_road.cpp)
+
+target_link_libraries(testroad
+  simulation 
+  Catch2::Catch2WithMain)

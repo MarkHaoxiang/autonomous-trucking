@@ -6,15 +6,14 @@
 #include "point2d.h"
 
 class TruckContainer {
+
     public:
-    std::vector<Truck*> trucks;
-    std::vector<TruckContainer*> merging_points;
+        std::vector<Truck*> trucks;
+        std::vector<TruckContainer*> merging_points;
 
-
-    virtual Point2d get_truck_position(int index) = 0;
-
-
-
+        virtual Point2d get_position(double position) = 0;
+        virtual Point2d get_truck_position(int index) = 0;
+        
 };
 
 

@@ -21,8 +21,6 @@ public:
     // executes algorithm, decides new acceleration of cars without adjusting position (no mutation)
     void compute_actions() {};
 
-
-
 };
 
 

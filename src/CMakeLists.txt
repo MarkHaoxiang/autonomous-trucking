@@ -1,13 +1,12 @@
 add_library(
-        simulation
+        simulation STATIC
+        truck.h       
         point2d.h
-        realm.h
         road.h
-        truck.h
         truckcontainer.h
-        realm.cpp
-        point2d.cpp
-        road.cpp
+        realm.h
         truck.cpp
         truckcontainer.cpp
+        road.cpp
+        realm.cpp
 )

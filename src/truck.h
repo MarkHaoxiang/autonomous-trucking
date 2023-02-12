@@ -1,7 +1,6 @@
 #ifndef AUTONOMOUSTRUCKING_TRUCK_H
 #define AUTONOMOUSTRUCKING_TRUCK_H
 
-
 class Truck {
     double position;
     double velocity;
